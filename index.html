@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Agency Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style/style_main.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="container">
+      <nav class="navbar top_nav">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="#">Autor</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </nav>
+    </header>
+
+    <!-- slider -->
+
+    <div id="slider" class="container-fluid">
+      <div class="row">
+        <div
+          id="carousel-example-generic"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/baner.png" alt="people" />
+              <div class="carousel-caption caption">
+                <h2 class="baner_h2">This is a main heading</h2>
+                <p class="baner_p">Lorem Ipsum is simply dummy text of the</p>
+                <p class="baner_p">printing</p>
+                <a href="#" class="btn button_learn-more">Learn More</a>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/baner.png" alt="people" />
+              <div class="carousel-caption caption">
+                <h2 class="baner_h2">This is a main heading</h2>
+                <p class="baner_p">Lorem Ipsum is simply dummy text of the</p>
+                <p class="baner_p">printing</p>
+                <a href="#" class="btn button_learn-more">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <a
+            class="left carousel-control arrow-left"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="right carousel-control arrow-right"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="next"
+          >
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- servis -->
+    <div id="servis" class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="circle"></span>
+          <h3 class="servis_h3">Custom Designs</h3>
+          <p class="servis_p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been
+          </p>
+          <a href="#" class="btn read_more">Read More</a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="circle b"></span>
+          <h3 class="servis_h3">Web Design</h3>
+          <p class="servis_p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been
+          </p>
+          <a href="#" class="btn read_more">Read More</a>
+        </div>
+        <div class="clearfix visible-sm-block"></div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="circle c"></span>
+          <h3 class="servis_h3">Blog Pages</h3>
+          <p class="servis_p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been
+          </p>
+          <a href="#" class="btn read_more">Read More</a>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <span class="circle d"></span>
+          <h3 class="servis_h3">Mobile friendly</h3>
+          <p class="servis_p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been
+          </p>
+          <a href="#" class="btn read_more">Read More</a>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio" class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <h2 class="mainH2 slideInDown">Portfolio</h2>
+          <div class="col-md-6 col-lg-4">
+            <img src="img/top.png" alt="top" />
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img src="img/camera.png" alt="camera" />
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img src="img/circle.png" alt="circle" />
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img src="img/remote.png" alt="remote" />
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img src="img/city.png" alt="city" />
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img src="img/flower.png" alt="flower" />
+          </div>
+          <a href="#" class="btn see_all_works">See all works</a>
+        </div>
+      </div>
+    </div>
+    <!-- the_team -->
+    <div id="the_team" class="container">
+      <h2 class="mainH2 slideInDown">The Team</h2>
+      <div class="col-sm-4 col-md-3">
+        <div class="circle_pluss">
+          <span class="pluss"></span>
+        </div>
+        <h3 class=".servis_h3">Adrian Thomas</h3>
+        <h4 class="prof">CEO & Founder</h4>
+        <p class="servis_p">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been
+        </p>
+      </div>
+      <div class="col-sm-4 col-md-3">
+        <div class="circle_pluss">
+          <span class="pluss"></span>
+        </div>
+        <h3 class=".servis_h3">Narate Ketram</h3>
+        <h4 class="prof">Creative Director</h4>
+        <p class="servis_p">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been
+        </p>
+      </div>
+      <div class="clearfix visible-xs-block"></div>
+      <div class="col-sm-4 col-md-3">
+        <div class="circle_pluss">
+          <span class="pluss"></span>
+        </div>
+        <h3 class=".servis_h3">Fernando Comet</h3>
+        <h4 class="prof">CEO & Founder</h4>
+        <p class="servis_p">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been
+        </p>
+      </div>
+      <div class="hidden-sm col-md-3">
+        <div class="circle_pluss">
+          <span class="pluss"></span>
+        </div>
+        <h3 class=".servis_h3">Adedayo saheed</h3>
+        <h4 class="prof">Creative Director</h4>
+        <p class="servis_p">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been
+        </p>
+      </div>
+    </div>
+    <!-- plans -->
+    <div id="plans" class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-4 mouse_hover">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="basic">Basic</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="Month">$5.01/ Month</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Lorem ipsum</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Dolor sit amet, consect</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Adipiscing elit</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Proin commodo turpis</td>
+                </tr>
+                <tr>
+                  <td class="allTable">lacus pulvinarvel</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Prnare nisi pretium.</td>
+                </tr>
+                <tr>
+                  <td class="button-table">
+                    <a href="#" class="btn button_buy"> Buy now</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-xs-12 col-md-4 mouse_hover">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="basic pro">Pro</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="Month">$10.01/ Month</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Lorem ipsum</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Dolor sit amet, consect</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Adipiscing elit</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Proin commodo turpis</td>
+                </tr>
+                <tr>
+                  <td class="allTable">lacus pulvinarvel</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Prnare nisi pretium.</td>
+                </tr>
+                <tr>
+                  <td class="button-table">
+                    <a href="#" class="btn button_buy"> Buy now</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-xs-12 col-md-4 mouse_hover">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="basic">Premium</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="Month">$20.01/ Month</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Lorem ipsum</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Dolor sit amet, consect</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Adipiscing elit</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Proin commodo turpis</td>
+                </tr>
+                <tr>
+                  <td class="allTable">lacus pulvinarvel</td>
+                </tr>
+                <tr>
+                  <td class="allTable">Prnare nisi pretium.</td>
+                </tr>
+                <tr>
+                  <td class="button-table">
+                    <a href="#" class="btn button_buy"> Buy now</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- slider2 -->
+    <div id="slider2" class="container-fluide">
+      <div class="row">
+        <h2 class="mainH2 clients_say slideInDown text-center">
+          What Clients Say
+        </h2>
+        <div id="carousel-generic2" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <div class="slide2">
+                <div class="carousel-caption caption-name">
+                  <blockquote>
+                    <p class="text-q">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 500s, when an unknown
+                      printer took a galley of type.
+                    </p>
+                    <p class="text-john">John Dove</p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slide2">
+                <div class="carousel-caption caption-name">
+                  <blockquote>
+                    <p class="text-q">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 500s, when an unknown
+                      printer took a galley of type.
+                    </p>
+                    <p class="text-john">John Dove</p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <a
+              class="left carousel-control arrowL"
+              href="#carousel-generic2"
+              role="button"
+              data-slide="prev"
+            >
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="right carousel-control arrowR"
+              href="#carousel-generic2"
+              role="button"
+              data-slide="next"
+            >
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer id="contact_us" class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <h2 class="mainH2 contact_us slideInDown text-center">Contact Us</h2>
+          <div class="col-md-6 col-md-push-6">
+            <form>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name"></label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Name"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="Email"></label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="Email"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="Message"></label>
+                  <textarea
+                    class="form-control textarea"
+                    id="Massege"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-default button_send">
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-6 col-md-pull-6 text-left">
+            <h3 class="get_us">Get in touch with us</h3>
+            <p class="get_us_p">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's
+            </p>
+            <ul class="social-icon">
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+            <a href="#" class="site">Cssaauthor.com</a>
+            <a href="#" class="site">+XX-XXXX - XXXX - XX</a>
+            <a href="#" class="site">info@cssauthor.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
