@@ -97,6 +97,7 @@
 .nav > li > a:hover {
   background: #f8f9fb;
   color: #49cbcd;
+  border-bottom: 3px solid #49cbcd;
 }
 .top_nav .navbar-right li > a.active {
   background: #f8f9fb;
